@@ -21,7 +21,7 @@ export class ContractController {
   ) {}
 
   @Post('/contract')
-  async createAuthor(
+  async createContract(
     @Res() request,
     @Body() contract: CreateContractDTO,
   ): Promise<any> {
